@@ -123,10 +123,7 @@ int main(void)
 
             for (int index = 0; index < N; index++)
             {
-                while (arr[index] % 2 == 0)
-                {
-                    arr[index] = rand() % 10 - 5;
-                }
+                arr[index] = rand() % 10 - 5;
             }
 
             /* Обеспечение распечатывания массива, путём передачи
